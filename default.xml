@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remotes -->
+	<remote name="mi8lite"
+		fetch="https://github.com/mi8lite/"
+		revision="lineage-17.1" />
+
+	<!-- Device -->
+	<project name="android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="mi8lite" />
+	<project name="android_device_xiaomi_platina" path="device/xiaomi/platina" remote="mi8lite" />
+
+	<!-- Kernel -->
+	<project name="android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="mi8lite" />
+
+	<!-- Vendor -->
+	<project name="android_vendor_xiaomi" path="vendor/xiaomi" remote="mi8lite" />
+
+</manifest>
